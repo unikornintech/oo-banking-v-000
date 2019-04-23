@@ -22,6 +22,7 @@ class Transfer
       self.status = "complete"
     else sender.balance <= 0 self.status = "open"
       self.status = "rejected"
+      
     end
   end 
   
