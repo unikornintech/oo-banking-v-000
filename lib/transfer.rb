@@ -1,7 +1,7 @@
 require 'pry'
 
 class Transfer
-  def initialize
+  def initialize(sender, receiver, amount)
   end 
   
   
