@@ -20,7 +20,7 @@ class Transfer
       sender.balance -= amount
       receiver.balance += amount
       self.status = "complete"
-    else sender.balance <= 0 self.status = "open"
+    else sender.balance <= 0 && self.status = "open"
       self.status = "rejected"
       "Transaction rejected. Please check your account balance."
     end 
