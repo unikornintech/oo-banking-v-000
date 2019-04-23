@@ -1,7 +1,6 @@
 require 'pry'
 
 class Transfer
-  # your code here
   def initialize
     
   end 
