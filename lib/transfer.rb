@@ -16,7 +16,7 @@ class Transfer
   end 
   
   def execute_transaction
-    balance = 950
+    
   end 
   
   
